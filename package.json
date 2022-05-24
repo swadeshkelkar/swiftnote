@@ -1,0 +1,33 @@
+{
+  "name": "notetaker",
+  "version": "1.0.0",
+  "description": "CLI based note taking app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swadeshkelkar/note-taker.git"
+  },
+  "keywords": [
+    "note",
+    "color",
+    "cli",
+    "text",
+    "command-line"
+  ],
+  "author": "Swadesh Kelkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swadeshkelkar/note-taker/issues"
+  },
+  "homepage": "https://github.com/swadeshkelkar/note-taker#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "yargs": "^12.0.5"
+  },
+  "bin": {
+    "notetaker": "app.js"
+  }
+}
