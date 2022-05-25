@@ -2,8 +2,6 @@
 const yargs = require('yargs');
 const notes = require('./notes.js');
 
-yargs.version('1.0.0');
-
 // write commands for the operations
 yargs.command({
     command: 'add',
