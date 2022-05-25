@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const yargs = require('yargs');
-const notes = require('./notes.js');
+const operations = require('./operations.js');
 
 // write commands for the operations
 yargs.command({
@@ -19,7 +19,7 @@ yargs.command({
         }
     },
     handler(argv){
-        notes.addNote(argv.title, argv.body);
+        operations.addNote(argv.title, argv.body);
     }
 });
 
@@ -35,7 +35,7 @@ yargs.command({
         
     },
     handler(argv) {
-        notes.removeNote(argv.title)
+        operations.removeNote(argv.title)
     }
 });
 
@@ -43,7 +43,7 @@ yargs.command({
     command: 'remove-all',
     describe: 'Remove all the notes',
     handler() {
-        notes.removeAllNotes()
+        operations.removeAllNotes()
     }
 });
 
@@ -51,7 +51,7 @@ yargs.command({
     command: 'list-titles',
     describe: 'List all notes\' titles',
     handler() {
-        notes.listTitles();
+        operations.listTitles();
     }
 });
 
@@ -59,7 +59,7 @@ yargs.command({
     command: 'list-all',
     describe: 'List all notes',
     handler() {
-        notes.listNotes();
+        operations.listNotes();
     }
 });
 
@@ -74,7 +74,7 @@ yargs.command({
         }
     },
     handler(argv) {
-        notes.readNote(argv.title);
+        operations.readNote(argv.title);
     }
 });
 
