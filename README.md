@@ -11,8 +11,7 @@ This is a CLI base note taking app which stores your notes locally on your machi
 ### Install using the command
 
 ```javascript 
-npm i swiftnote
-npm i swiftnote -g (globally)
+npm i -g swiftnote
 ```
 
 ### See help for all of the commands available
