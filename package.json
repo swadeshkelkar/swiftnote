@@ -1,5 +1,5 @@
 {
-  "name": "notetaker",
+  "name": "swiftnote",
   "version": "1.0.0",
   "description": "CLI based note taking app",
   "main": "app.js",
@@ -28,6 +28,6 @@
     "yargs": "^12.0.5"
   },
   "bin": {
-    "notetaker": "app.js"
+    "swiftnote": "app.js"
   }
 }
