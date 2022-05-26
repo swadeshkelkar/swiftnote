@@ -1,6 +1,6 @@
 {
   "name": "swiftnote",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI based note taking app",
   "main": "app.js",
   "scripts": {
