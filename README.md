@@ -20,6 +20,9 @@ npm i -g swiftnote
 swiftnote --help
 ```
 
+### Example
+![example](https://github.com/swadeshkelkar/swiftnote/blob/master/image/example.png?raw=true)
+
 >Happy Coding!
 
 
